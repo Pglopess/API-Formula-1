@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from app.routers import pilotos, analises
+from app.routers import pilotos, analises, corridas
 
 app = FastAPI(
     title="API Formula 1",
@@ -9,6 +9,7 @@ app = FastAPI(
 
 app.include_router(pilotos.router)
 app.include_router(analises.router)
+app.include_router(corridas.router)
 
 @app.get("/")
 def root():
