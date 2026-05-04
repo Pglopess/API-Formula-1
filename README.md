@@ -1,6 +1,6 @@
 # API Formula 1
 
-API REST construída com FastAPI como mini-projeto final da Fase 3 do plano de estudos backend Python.
+API REST construída com FastAPI como mini-projeto para estudos de backend em Python.
 
 Utiliza dados reais de F1 (1950–2024), banco SQLite, processamento com Pandas e validação com Pydantic.
 
