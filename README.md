@@ -91,7 +91,7 @@ A API estará disponível em `http://127.0.0.1:8000`
 
 ---
 
-## Documentação automática
+## Documentação 
 
 Com a API rodando, acesse:
 
@@ -105,7 +105,7 @@ Com a API rodando, acesse:
 ```
 API Formula 1/
 ├── app/
-│   ├── main.py          # instância do FastAPI e inclusão dos routers
+│   ├── main.py          # instância do FastAPI 
 │   ├── database.py      # conexão com SQLite
 │   ├── models.py        # modelos Pydantic
 │   └── routers/
